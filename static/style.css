@@ -1,0 +1,59 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Un tono más claro de gris para el fondo */
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+h1 {
+    text-align: center;
+    color: #007bff; /* Azul brillante para el encabezado */
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+button {
+    background-color: #28a745; /* Verde brillante para el botón */
+    color: #fff;
+    padding: 12px 20px; /* Mayor espacio alrededor del texto */
+    border: none;
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Efecto de transición suave */
+}
+
+button:hover {
+    background-color: #218838; /* Color más oscuro al pasar el mouse */
+}
+
+ul.file-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul.file-list li {
+    background-color: #f1f1f1; /* Fondo gris claro para cada elemento de la lista */
+    margin: 5px 0;
+    padding: 15px;
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sutil sombra */
+}
+
+ul.file-list li:hover {
+    background-color: #e5e5e5; /* Color más claro al pasar el mouse */
+}
